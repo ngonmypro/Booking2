@@ -1,0 +1,91 @@
+html{
+  height: 100%;
+}
+body{
+  padding: 10px 50px;
+  min-height: 100%;
+  font-size: 11px;
+}
+hr{
+  border-color: black;
+  margin-bottom: 5px;
+  margin-top: -3px;
+}
+section{
+  margin-bottom: 20px;
+}
+table{
+  width: 100%;
+}
+header{
+  background-color: black;
+  height: 55px;
+  width: 100%
+}
+header .pic-head{
+  background-image: url('/image/factsheet/hotel_factsheet_header.jpg');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+.menu-fc{
+  height: 20px;
+  background-color: #bbbbbb;
+  width: 100%;
+}
+.menu-fc ul{
+  display: inline-flex;
+}
+.menu-fc ul li {
+  margin-right: 20px;
+  list-style: none;
+}
+.contain{
+  position: relative;
+  margin-top: 20px;
+  line-height: 11px;
+}
+.fix_inline{
+  display: inline-flex;
+}
+.star{
+  margin-top: 18px;
+}
+.sec1{
+  position: relative;
+}
+.sec1 table tr td p{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+#distanceFHotel , #standardService , #recretionalFac , #restaurant , #briefDesc , #suitability , #functionRoom , #transportService , #additionComment{
+  line-height: 13px;
+}
+#RoomCategories , #beautyHealth{
+  line-height: 20px;
+}
+#RoomCategories table thead{
+  border-bottom: 1px solid black;
+}
+#RoomCategories table tfoot{
+  border-bottom: 1px solid black;
+}
+table.room_detail{
+  width: 90%;
+  margin: 0 auto;
+}
+table.room_detail tr td{
+  vertical-align: top;
+}
+#contactInfo, #breakFast{
+  line-height: 12px;
+}
+.footer{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 15px;
+  color: blue;
+}

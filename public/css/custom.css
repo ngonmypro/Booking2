@@ -1,0 +1,303 @@
+html{
+  height: 100% !important;
+}
+.tr-active{
+  background-color: yellow;
+}
+header{
+  height: 75px;
+}
+body{
+  font-size: 12px;
+}
+.icon-arrow-left{
+  background-color: red;
+}.icon-arrow-right{
+  background-color: red;
+}
+input[type='checkbox'],input[type='radio']{
+  display: inline-block;
+  *display: inline;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  width: 18px;
+  height: 18px;
+  background: rgba(255, 255, 255, 0.7) url(iCheck/minimal/minimal.png) no-repeat;
+  border: none;
+  cursor: pointer;
+}
+.form-group{
+  margin-bottom: 10px;
+}
+.form-control{
+  border: 1px solid #999;
+  height: 27px;
+  font-size: 12px;
+  padding: 4px 9px;
+}
+span.companyN{
+  font-size: 20px;
+}
+.btn-inline{
+  display: inline-flex;
+}
+.image-size{
+  width: 100%;
+  cursor: pointer;
+}
+.box-image{
+  margin: 10px 10px;
+  padding: 20px;
+}
+.modal-header .close{
+  color: black;
+}
+button.btm{
+  margin-bottom: 10px;
+}
+button.btn-default{
+  border: 1px solid grey !important;
+}
+.border_row{
+  border: 1px solid black;
+  padding: 7px 0px;
+}
+.border_right{
+  border-right: 1px solid black;
+}
+.center{
+  text-align: center;
+}
+span.red{
+  color: red;
+  font-weight: bold;
+}
+.modal-image {
+  display: none; 
+  position: fixed; 
+  z-index: 9999; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.9);
+}
+.modal-content-image {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+.modal-content-image, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+@media only screen and (max-width: 700px){
+  .modal-content-image {
+    width: 100%;
+  }
+}
+.content{
+  padding: 0px 15px;
+}
+.search-page{
+  margin-top: -55px;   
+}
+.fix-inline{
+  display: inline-flex;
+}
+.normal-side{
+  margin: 10px 0px;
+}
+.normal-side .content-header{
+  margin-left: 25px;
+}
+.search-btn-right{
+  position: absolute;
+  right: 20px;
+  top: 50px;   
+}
+.icheckbox_minimal{
+  border: 1px solid #999;    
+}
+.content{
+  background: transparent;
+}
+.mainform{
+  background: #f9f9f9;
+}
+.nav-tabs-custom{
+  background: steelblue;
+}
+.nav-tabs-custom ul li a{
+  color: white;
+  font-weight: bold;
+}
+.nav-tabs-custom ul li active a{
+  color: black;
+}
+hr{
+  border-top: 1px solid #999;
+}
+.skin-black .left-side{
+  background: #333 !important;
+}
+.link_click{
+  cursor: pointer;
+}
+.checkbox{
+  margin-right: 10px;
+}
+.modal_waiting {
+  display:    none;
+  position:   fixed;
+  z-index:    1000;
+  top:        0;
+  left:       0;
+  height:     100%;
+  width:      100%;
+  background: rgba( 255, 255, 255, .8 ) 
+              url('http://i.stack.imgur.com/FhHRx.gif') 
+              50% 50% 
+              no-repeat;
+}
+body.loading {
+  overflow: hidden;   
+}
+body.loading .modal_waiting {
+  display: block;
+  z-index: 9999;
+}
+.checkbox, .radio {
+  padding-left: 0;
+  padding: 0px 10px;
+  margin-top: 0px;
+}
+.radio+.radio, .checkbox+.checkbox {
+  margin-top: 0px;
+}
+
+input.cPhone , input.aPhone ,input.extPhone{
+  width : 50px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+input.phone{
+  width : 100px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.box-save-btn{
+  text-align: right;
+  padding: 10px 10px;
+}
+.tab-pane{
+  padding: 0px 20px;
+}
+.box-file{
+  background-color: grey;
+  margin: 30px;
+  padding: 30px;
+  color: white;
+  cursor: pointer;
+}
+.table-staff-link{
+  width: 60%;
+  margin: 0 auto;
+}
+.table-staff-link2{
+  max-height: 500px;
+  overflow-y: scroll;
+  padding: 0px 15px;
+}
+.scroll_table_TOCHandle{
+  max-height: 410px;
+  overflow-y: scroll;
+  padding: 0px 15px;
+}
+.show_report_box{
+  line-height: 12px;
+  padding: 20px 25px;
+}
+.posi-bottom{
+  margin-bottom: 15px !important;
+}
+.table-compant-detail tr td{
+  padding: 10px 20px !important;
+}
+.cuadro_intro_hover{
+  padding: 0px;
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+}
+.cuadro_intro_hover:hover .caption{
+  opacity: 1;
+  transform: translateY(-150px);
+  -webkit-transform:translateY(-150px);
+  -moz-transform:translateY(-150px);
+  -ms-transform:translateY(-150px);
+  -o-transform:translateY(-150px);
+}
+.cuadro_intro_hover img{
+  z-index: 4;
+}
+.cuadro_intro_hover .caption{
+  position: absolute;
+  top:150px;
+  -webkit-transition:all 0.3s ease-in-out;
+  -moz-transition:all 0.3s ease-in-out;
+  -o-transition:all 0.3s ease-in-out;
+  -ms-transition:all 0.3s ease-in-out;
+  transition:all 0.3s ease-in-out;
+  width: 100%;
+}
+.cuadro_intro_hover .blur{
+  background-color: rgba(0,0,0,0.7);
+  height: 300px;
+  z-index: 5;
+  position: absolute;
+  width: 100%;
+}
+.cuadro_intro_hover .caption-text{
+  z-index: 10;
+  color: #fff;
+  position: absolute;
+  height: 300px;
+  text-align: center;
+  top:-20px;
+  width: 100%;
+}
